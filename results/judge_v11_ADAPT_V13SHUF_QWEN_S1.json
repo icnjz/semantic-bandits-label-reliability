@@ -1,0 +1,95 @@
+{
+ "dev_reps_0_9": {
+  "reps": "0-9",
+  "semantic_mean": {
+   "ADAPT": 0.1,
+   "AGN": 0.15,
+   "BASE": 0.422,
+   "BASE_warn": 0.458,
+   "BASE_warn_explore": 0.35150000000000003
+  },
+  "P1": {
+   "pass": true,
+   "missing": []
+  },
+  "P2": {
+   "pass": true,
+   "cells": {
+    "bandit|ordinal|misleading": 0.15,
+    "bandit|sentiment|misleading": 0.15,
+    "farm|ordinal|misleading": 0.15,
+    "farm|sentiment|misleading": 0.15,
+    "farm|world|misleading": 0.15
+   }
+  },
+  "P3": {
+   "pass": true,
+   "cells": {
+    "bandit|ordinal|helpful": 0.05,
+    "bandit|sentiment|helpful": 0.05,
+    "farm|ordinal|helpful": 0.05,
+    "farm|sentiment|helpful": 0.05,
+    "farm|world|helpful": 0.05
+   }
+  },
+  "P4": {
+   "pass": true,
+   "cells": {
+    "bandit|alphanumeric|none": 0.15,
+    "farm|alphanumeric|none": 0.15
+   }
+  },
+  "P5": {
+   "pass": true,
+   "AGN": 0.15
+  },
+  "ALL_PASS": true
+ },
+ "fresh_reps_80_99": {
+  "reps": "80-99",
+  "semantic_mean": {
+   "ADAPT": 0.101,
+   "AGN": 0.15,
+   "BASE": 0.48774999999999996,
+   "BASE_warn": 0.49775,
+   "BASE_warn_explore": 0.28475
+  },
+  "P1": {
+   "pass": true,
+   "missing": []
+  },
+  "P2": {
+   "pass": true,
+   "cells": {
+    "bandit|ordinal|misleading": 0.15,
+    "bandit|sentiment|misleading": 0.15,
+    "farm|ordinal|misleading": 0.15,
+    "farm|sentiment|misleading": 0.15,
+    "farm|world|misleading": 0.15
+   }
+  },
+  "P3": {
+   "pass": true,
+   "cells": {
+    "bandit|ordinal|helpful": 0.05,
+    "bandit|sentiment|helpful": 0.05,
+    "farm|ordinal|helpful": 0.05,
+    "farm|sentiment|helpful": 0.05,
+    "farm|world|helpful": 0.06
+   }
+  },
+  "P4": {
+   "pass": true,
+   "cells": {
+    "bandit|alphanumeric|none": 0.15,
+    "farm|alphanumeric|none": 0.15
+   }
+  },
+  "P5": {
+   "pass": true,
+   "AGN": 0.15
+  },
+  "ALL_PASS": true
+ },
+ "PASS": true
+}
