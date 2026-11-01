@@ -1,0 +1,7772 @@
+[
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Highest Reward",
+   "M": "Intermediate Reward",
+   "L": "Lowest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Lowest Reward",
+   "M": "Intermediate Reward",
+   "L": "Highest Reward"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 2
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "windbreaker",
+   "M": "leather jacket",
+   "L": "heavy parka"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "tank top",
+   "M": "midweight t-shirt",
+   "L": "flannel long-sleeve shirt"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "flannel long-sleeve shirt",
+   "M": "midweight t-shirt",
+   "L": "tank top"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "heavy parka",
+   "M": "leather jacket",
+   "L": "windbreaker"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Stellar",
+   "M": "Normal",
+   "L": "Wretched"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Impeccable",
+   "M": "Typical",
+   "L": "Ghastly"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Exquisite",
+   "M": "Mainstream",
+   "L": "Abysmal"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Marvelous",
+   "M": "Medium",
+   "L": "Abysmal"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Phenomenal",
+   "M": "Everyday",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Magnificent",
+   "M": "Regular",
+   "L": "Pathetic"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Fabulous",
+   "M": "Regular",
+   "L": "Dreadful"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Excellent",
+   "M": "Customary",
+   "L": "Abominable"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Splendid",
+   "M": "Functional",
+   "L": "Wretched"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Exquisite",
+   "M": "Commonplace",
+   "L": "Horrible"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Impeccable",
+   "M": "Mainstream",
+   "L": "Pathetic"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Phenomenal",
+   "M": "Usual",
+   "L": "Horrendous"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Phenomenal",
+   "M": "Plain",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Phenomenal",
+   "M": "Plain",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Brilliant",
+   "M": "Basic",
+   "L": "Repulsive"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Superb",
+   "M": "Mainstream",
+   "L": "Disgusting"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Terrific",
+   "M": "Generic",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Superb",
+   "M": "Everyday",
+   "L": "Pathetic"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Superb",
+   "M": "Regular",
+   "L": "Atrocious"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Superlative",
+   "M": "Average",
+   "L": "Wretched"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Spectacular",
+   "M": "Medium",
+   "L": "Horrendous"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Outstanding",
+   "M": "Routine",
+   "L": "Awful"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Phenomenal",
+   "M": "Average",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Brilliant",
+   "M": "Medium",
+   "L": "Awful"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Impeccable",
+   "M": "Everyday",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Exquisite",
+   "M": "Common",
+   "L": "Repulsive"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Remarkable",
+   "M": "Customary",
+   "L": "Dreadful"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Superlative",
+   "M": "Mainstream",
+   "L": "Awful"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Extraordinary",
+   "M": "Common",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Brilliant",
+   "M": "Ordinary",
+   "L": "Deplorable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Wretched",
+   "M": "Normal",
+   "L": "Stellar"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Ghastly",
+   "M": "Typical",
+   "L": "Impeccable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Abysmal",
+   "M": "Mainstream",
+   "L": "Exquisite"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Abysmal",
+   "M": "Medium",
+   "L": "Marvelous"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Everyday",
+   "L": "Phenomenal"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Pathetic",
+   "M": "Regular",
+   "L": "Magnificent"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Dreadful",
+   "M": "Regular",
+   "L": "Fabulous"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Abominable",
+   "M": "Customary",
+   "L": "Excellent"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Wretched",
+   "M": "Functional",
+   "L": "Splendid"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Horrible",
+   "M": "Commonplace",
+   "L": "Exquisite"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Pathetic",
+   "M": "Mainstream",
+   "L": "Impeccable"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Horrendous",
+   "M": "Usual",
+   "L": "Phenomenal"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Plain",
+   "L": "Phenomenal"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Plain",
+   "L": "Phenomenal"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Repulsive",
+   "M": "Basic",
+   "L": "Brilliant"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Disgusting",
+   "M": "Mainstream",
+   "L": "Superb"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Generic",
+   "L": "Terrific"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Pathetic",
+   "M": "Everyday",
+   "L": "Superb"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Atrocious",
+   "M": "Regular",
+   "L": "Superb"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Wretched",
+   "M": "Average",
+   "L": "Superlative"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Horrendous",
+   "M": "Medium",
+   "L": "Spectacular"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "Awful",
+   "M": "Routine",
+   "L": "Outstanding"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Average",
+   "L": "Phenomenal"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Awful",
+   "M": "Medium",
+   "L": "Brilliant"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Everyday",
+   "L": "Impeccable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "Repulsive",
+   "M": "Common",
+   "L": "Exquisite"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "Dreadful",
+   "M": "Customary",
+   "L": "Remarkable"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "Awful",
+   "M": "Mainstream",
+   "L": "Superlative"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Common",
+   "L": "Extraordinary"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "Deplorable",
+   "M": "Ordinary",
+   "L": "Brilliant"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 0,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "ypqdts",
+   "M": "x9ehge",
+   "L": "s9ngbi"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 1,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "qdetxv",
+   "M": "8ololc",
+   "L": "9u2g2s"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 2,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "wl2ciz",
+   "M": "gd3mj0",
+   "L": "k93pin"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 3,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "az2ov4",
+   "M": "ve2ww2",
+   "L": "0jpj3p"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 4,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "kiq2px",
+   "M": "my1i79",
+   "L": "dwax4m"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 5,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "aq9odc",
+   "M": "ssnmrc",
+   "L": "6xtcgm"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 1,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 6,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "vmyu1t",
+   "M": "lrn3wy",
+   "L": "socjog"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 7,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "zy3y2p",
+   "M": "hdlz8w",
+   "L": "gj4xdz"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 8,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "q647h2",
+   "M": "624zlb",
+   "L": "sydzqg"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 9,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "0ooj9l",
+   "M": "lltvsn",
+   "L": "65xzms"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 80,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "3es262",
+   "M": "hqvci0",
+   "L": "i1hqsg"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 81,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "2utdc1",
+   "M": "z7aek6",
+   "L": "8if4n2"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 82,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "q1owaj",
+   "M": "q3q0fc",
+   "L": "nwg7xp"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 83,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "yq9zfj",
+   "M": "xi229h",
+   "L": "xoqgc7"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 84,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "knric5",
+   "M": "dkh3sf",
+   "L": "khrv5u"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 85,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "7it50m",
+   "M": "accgt1",
+   "L": "j17xow"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 86,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "211r41",
+   "M": "45kix8",
+   "L": "wa1o5h"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 87,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "r39qkx",
+   "M": "2233co",
+   "L": "tgl7im"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 88,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "ffdmyl",
+   "M": "84o271",
+   "L": "8cw4lb"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 89,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "gmytf7",
+   "M": "no5de1",
+   "L": "up7leu"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 90,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "8zshon",
+   "M": "ltwtkf",
+   "L": "pxbvdx"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 91,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "vhcdkm",
+   "M": "aqc8nr",
+   "L": "zo6i7q"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 92,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "o367lp",
+   "M": "jup8e8",
+   "L": "ljwue1"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 93,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "ih61tl",
+   "M": "ca8089",
+   "L": "z0e80r"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 94,
+  "k": 3,
+  "order": [
+   "H",
+   "L",
+   "M"
+  ],
+  "labels": {
+   "H": "0qbtxv",
+   "M": "mcz325",
+   "L": "tw1q07"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 95,
+  "k": 3,
+  "order": [
+   "M",
+   "L",
+   "H"
+  ],
+  "labels": {
+   "H": "60sfve",
+   "M": "zr3fkc",
+   "L": "6wswcl"
+  },
+  "context": {
+   "Climate": "cold",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 96,
+  "k": 3,
+  "order": [
+   "M",
+   "H",
+   "L"
+  ],
+  "labels": {
+   "H": "kcxgwa",
+   "M": "kmrwrn",
+   "L": "tkxihs"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 97,
+  "k": 3,
+  "order": [
+   "L",
+   "M",
+   "H"
+  ],
+  "labels": {
+   "H": "ojte2s",
+   "M": "a0ur1u",
+   "L": "6orbdk"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ],
+  "norm_cum_regret": 0.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 98,
+  "k": 3,
+  "order": [
+   "L",
+   "H",
+   "M"
+  ],
+  "labels": {
+   "H": "7fbyxx",
+   "M": "3jjd6q",
+   "L": "rnzm65"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "jacket"
+  },
+  "arms": [
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M",
+   "M"
+  ],
+  "norm_cum_regret": 0.5,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 99,
+  "k": 3,
+  "order": [
+   "H",
+   "M",
+   "L"
+  ],
+  "labels": {
+   "H": "y9dz5r",
+   "M": "1eiuk0",
+   "L": "kcjloj"
+  },
+  "context": {
+   "Climate": "warm",
+   "Looking for": "shirt"
+  },
+  "arms": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "norm_cum_regret": 1.0,
+  "explore_count": 1,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ }
+]

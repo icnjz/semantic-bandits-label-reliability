@@ -1,0 +1,194 @@
+[
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.04666666666666667,
+  "regret_ci95": [
+   0.0425,
+   0.05000000000000002
+  ],
+  "explore": 1.9666666666666666,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.38833333333333336,
+  "regret_ci95": [
+   0.3266666666666667,
+   0.4575000000000001
+  ],
+  "explore": 4.4,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 1
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.037500000000000006,
+  "regret_ci95": [
+   0.03333333333333334,
+   0.041666666666666664
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.27749999999999997,
+  "regret_ci95": [
+   0.24583333333333338,
+   0.3116666666666667
+  ],
+  "explore": 4.533333333333333,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.2008333333333333,
+  "regret_ci95": [
+   0.17833333333333332,
+   0.22750000000000004
+  ],
+  "explore": 3.966666666666667,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.0425,
+  "regret_ci95": [
+   0.03583333333333334,
+   0.048333333333333346
+  ],
+  "explore": 1.8666666666666667,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.38166666666666665,
+  "regret_ci95": [
+   0.3224999999999999,
+   0.44583333333333325
+  ],
+  "explore": 4.2,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.145,
+  "regret_ci95": [
+   0.10916666666666668,
+   0.1791666666666667
+  ],
+  "explore": 3.466666666666667,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.32333333333333325,
+  "regret_ci95": [
+   0.3141666666666666,
+   0.3316666666666666
+  ],
+  "explore": 2.433333333333333,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.035,
+  "regret_ci95": [
+   0.030833333333333338,
+   0.039166666666666676
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.26333333333333336,
+  "regret_ci95": [
+   0.24333333333333332,
+   0.28500000000000003
+  ],
+  "explore": 4.633333333333334,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.21583333333333335,
+  "regret_ci95": [
+   0.19083333333333335,
+   0.2458333333333333
+  ],
+  "explore": 4.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ }
+]

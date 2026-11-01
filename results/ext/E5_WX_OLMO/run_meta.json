@@ -1,0 +1,26 @@
+{
+ "args": {
+  "backend": "vllm",
+  "model": "/root/models/Olmo-3-7B-Instruct",
+  "out": "out/E5_WX_OLMO",
+  "reps": 10,
+  "rep_list": "0-9,80-99",
+  "turns": 10,
+  "cells": "all",
+  "max_model_len": 2048,
+  "hf_dtype": "bfloat16",
+  "lora": null,
+  "variant": "warn_explore",
+  "scale": "H+",
+  "sigma": 0.0,
+  "k": 5
+ },
+ "wall_s": 233.4399492740631,
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20
+ },
+ "thinking_budget": 150,
+ "new_token_budget": 512
+}

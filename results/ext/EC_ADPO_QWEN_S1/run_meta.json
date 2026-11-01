@@ -1,0 +1,26 @@
+{
+ "args": {
+  "backend": "vllm",
+  "model": "/root/models/Qwen3-8B",
+  "out": "out/EC_ADPO_QWEN_S1",
+  "reps": 10,
+  "rep_list": "0-9,80-99",
+  "turns": 10,
+  "cells": "clothing",
+  "max_model_len": 2048,
+  "hf_dtype": "bfloat16",
+  "lora": "/root/sa/adapters/ADPO_QWEN_S1_R4_REGEN",
+  "variant": "none",
+  "scale": "H+",
+  "sigma": 0.0,
+  "k": 3
+ },
+ "wall_s": 140.75732231140137,
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20
+ },
+ "thinking_budget": 150,
+ "new_token_budget": 512
+}

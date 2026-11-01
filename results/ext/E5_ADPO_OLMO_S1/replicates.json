@@ -1,0 +1,13682 @@
+[
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "E",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "A",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "E",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "A",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Exceptional",
+   "B": "Helpful",
+   "C": "Usual",
+   "D": "Mediocre",
+   "E": "Terrible"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Wonderful",
+   "B": "Commendable",
+   "C": "Ordinary",
+   "D": "Poor",
+   "E": "Dismal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "E",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Extraordinary",
+   "B": "Nice",
+   "C": "Common",
+   "D": "Substandard",
+   "E": "Disgusting"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Stellar",
+   "B": "Fine",
+   "C": "Mainstream",
+   "D": "Inferior",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Superb",
+   "B": "Decent",
+   "C": "Typical",
+   "D": "Lacking",
+   "E": "Pathetic"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Excellent",
+   "B": "Nice",
+   "C": "Regular",
+   "D": "Shoddy",
+   "E": "Abysmal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Exceptional",
+   "B": "Commendable",
+   "C": "Moderate",
+   "D": "Unfavorable",
+   "E": "Abominable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "A",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Impeccable",
+   "B": "Useful",
+   "C": "Ordinary",
+   "D": "Weak",
+   "E": "Abysmal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Splendid",
+   "B": "Welcome",
+   "C": "Ordinary",
+   "D": "Displeasing",
+   "E": "Appalling"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Superb",
+   "B": "Nice",
+   "C": "Average",
+   "D": "Unfavorable",
+   "E": "Ghastly"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Valuable",
+   "C": "Routine",
+   "D": "Mediocre",
+   "E": "Abysmal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Remarkable",
+   "B": "Agreeable",
+   "C": "Commonplace",
+   "D": "Unpleasant",
+   "E": "Dreadful"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Remarkable",
+   "B": "Welcome",
+   "C": "Medium",
+   "D": "Unsatisfactory",
+   "E": "Wretched"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Superb",
+   "B": "Enjoyable",
+   "C": "Medium",
+   "D": "Problematic",
+   "E": "Dismal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Remarkable",
+   "B": "Appealing",
+   "C": "Ordinary",
+   "D": "Inferior",
+   "E": "Ghastly"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Impeccable",
+   "B": "Worthy",
+   "C": "Standard",
+   "D": "Bad",
+   "E": "Despicable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Remarkable",
+   "B": "Solid",
+   "C": "Basic",
+   "D": "Lacking",
+   "E": "Disgusting"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Magnificent",
+   "B": "Enjoyable",
+   "C": "Plain",
+   "D": "Substandard",
+   "E": "Pathetic"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Superlative",
+   "B": "Likable",
+   "C": "Commonplace",
+   "D": "Flawed",
+   "E": "Vile"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Impeccable",
+   "B": "Useful",
+   "C": "Commonplace",
+   "D": "Lacking",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Extraordinary",
+   "B": "Likable",
+   "C": "Functional",
+   "D": "Shoddy",
+   "E": "Terrible"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Spectacular",
+   "B": "Agreeable",
+   "C": "Typical",
+   "D": "Poor",
+   "E": "Abominable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Spectacular",
+   "B": "Pleasant",
+   "C": "Ordinary",
+   "D": "Unsatisfactory",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Marvelous",
+   "B": "Solid",
+   "C": "Mainstream",
+   "D": "Faulty",
+   "E": "Horrendous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Outstanding",
+   "B": "Likable",
+   "C": "Normal",
+   "D": "Inadequate",
+   "E": "Disgusting"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "A",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Likable",
+   "C": "Average",
+   "D": "Mediocre",
+   "E": "Hideous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Useful",
+   "C": "Basic",
+   "D": "Unsatisfactory",
+   "E": "Hideous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Extraordinary",
+   "B": "Pleasant",
+   "C": "Medium",
+   "D": "Undesirable",
+   "E": "Vile"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Brilliant",
+   "B": "Positive",
+   "C": "Mainstream",
+   "D": "Unsatisfactory",
+   "E": "Deplorable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Excellent",
+   "B": "Enjoyable",
+   "C": "Routine",
+   "D": "Inadequate",
+   "E": "Ghastly"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Terrible",
+   "B": "Helpful",
+   "C": "Usual",
+   "D": "Mediocre",
+   "E": "Exceptional"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Dismal",
+   "B": "Commendable",
+   "C": "Ordinary",
+   "D": "Poor",
+   "E": "Wonderful"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "E",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Disgusting",
+   "B": "Nice",
+   "C": "Common",
+   "D": "Substandard",
+   "E": "Extraordinary"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Fine",
+   "C": "Mainstream",
+   "D": "Inferior",
+   "E": "Stellar"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Pathetic",
+   "B": "Decent",
+   "C": "Typical",
+   "D": "Lacking",
+   "E": "Superb"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Abysmal",
+   "B": "Nice",
+   "C": "Regular",
+   "D": "Shoddy",
+   "E": "Excellent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Abominable",
+   "B": "Commendable",
+   "C": "Moderate",
+   "D": "Unfavorable",
+   "E": "Exceptional"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "A",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Abysmal",
+   "B": "Useful",
+   "C": "Ordinary",
+   "D": "Weak",
+   "E": "Impeccable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Appalling",
+   "B": "Welcome",
+   "C": "Ordinary",
+   "D": "Displeasing",
+   "E": "Splendid"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Ghastly",
+   "B": "Nice",
+   "C": "Average",
+   "D": "Unfavorable",
+   "E": "Superb"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Abysmal",
+   "B": "Valuable",
+   "C": "Routine",
+   "D": "Mediocre",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Dreadful",
+   "B": "Agreeable",
+   "C": "Commonplace",
+   "D": "Unpleasant",
+   "E": "Remarkable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Wretched",
+   "B": "Welcome",
+   "C": "Medium",
+   "D": "Unsatisfactory",
+   "E": "Remarkable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Dismal",
+   "B": "Enjoyable",
+   "C": "Medium",
+   "D": "Problematic",
+   "E": "Superb"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Ghastly",
+   "B": "Appealing",
+   "C": "Ordinary",
+   "D": "Inferior",
+   "E": "Remarkable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Despicable",
+   "B": "Worthy",
+   "C": "Standard",
+   "D": "Bad",
+   "E": "Impeccable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Disgusting",
+   "B": "Solid",
+   "C": "Basic",
+   "D": "Lacking",
+   "E": "Remarkable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Pathetic",
+   "B": "Enjoyable",
+   "C": "Plain",
+   "D": "Substandard",
+   "E": "Magnificent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Vile",
+   "B": "Likable",
+   "C": "Commonplace",
+   "D": "Flawed",
+   "E": "Superlative"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Useful",
+   "C": "Commonplace",
+   "D": "Lacking",
+   "E": "Impeccable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Terrible",
+   "B": "Likable",
+   "C": "Functional",
+   "D": "Shoddy",
+   "E": "Extraordinary"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Abominable",
+   "B": "Agreeable",
+   "C": "Typical",
+   "D": "Poor",
+   "E": "Spectacular"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Pleasant",
+   "C": "Ordinary",
+   "D": "Unsatisfactory",
+   "E": "Spectacular"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Horrendous",
+   "B": "Solid",
+   "C": "Mainstream",
+   "D": "Faulty",
+   "E": "Marvelous"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Disgusting",
+   "B": "Likable",
+   "C": "Normal",
+   "D": "Inadequate",
+   "E": "Outstanding"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "A",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Hideous",
+   "B": "Likable",
+   "C": "Average",
+   "D": "Mediocre",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
+  "labels": {
+   "A": "Hideous",
+   "B": "Useful",
+   "C": "Basic",
+   "D": "Unsatisfactory",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Vile",
+   "B": "Pleasant",
+   "C": "Medium",
+   "D": "Undesirable",
+   "E": "Extraordinary"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Deplorable",
+   "B": "Positive",
+   "C": "Mainstream",
+   "D": "Unsatisfactory",
+   "E": "Brilliant"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Ghastly",
+   "B": "Enjoyable",
+   "C": "Routine",
+   "D": "Inadequate",
+   "E": "Excellent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "29vz9m",
+   "B": "8bgded",
+   "C": "ggs4bo",
+   "D": "ywovtr",
+   "E": "gtd208"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "zmnprb",
+   "B": "jqx1ip",
+   "C": "8x2d9h",
+   "D": "oxnrc2",
+   "E": "ayjpdg"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "3r01cx",
+   "B": "47kmgc",
+   "C": "widosi",
+   "D": "rmrvkq",
+   "E": "omp6nl"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "E",
+   "C",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "xkbxv1",
+   "B": "wvn4a7",
+   "C": "53fwk1",
+   "D": "2yfxs9",
+   "E": "tw57y3"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "93pgmo",
+   "B": "ykkh3m",
+   "C": "0hg2ro",
+   "D": "u7dt1c",
+   "E": "ioxu9n"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "D",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "A",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "0pzll7",
+   "B": "ska6wf",
+   "C": "xtogyg",
+   "D": "4xj1bn",
+   "E": "9p0ovt"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "C",
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "6ztk2a",
+   "B": "qrmw8v",
+   "C": "9h8mpi",
+   "D": "oyxhjf",
+   "E": "od3zdk"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "9tne0a",
+   "B": "37u0lz",
+   "C": "kmg8ho",
+   "D": "kvcrmj",
+   "E": "dyvrys"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "B",
+   "C",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "E",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "4xdl0h",
+   "B": "8d2p1x",
+   "C": "a5fqcb",
+   "D": "qxdipp",
+   "E": "pe689d"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "B",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "peoo3n",
+   "B": "03rc31",
+   "C": "iikjro",
+   "D": "wwnbrf",
+   "E": "riy3qu"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "B",
+   "C",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "yprucb",
+   "B": "4mb4ij",
+   "C": "aqllmr",
+   "D": "lye3gv",
+   "E": "b67bbx"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "D",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "rbdcgd",
+   "B": "biyth8",
+   "C": "rb6id3",
+   "D": "mvpyda",
+   "E": "q3ivak"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "tyrg5t",
+   "B": "6am0ry",
+   "C": "cdbd1e",
+   "D": "yjpvso",
+   "E": "sj2n1w"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "jc7jk5",
+   "B": "rgma5e",
+   "C": "doczkq",
+   "D": "tzt18h",
+   "E": "fwkwuo"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "t3itug",
+   "B": "zwqgnp",
+   "C": "7ik33f",
+   "D": "mic5si",
+   "E": "5gzc2s"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "o5aq30",
+   "B": "7iu569",
+   "C": "qbgil2",
+   "D": "ikejhe",
+   "E": "vu5907"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "z4ctt2",
+   "B": "tg3m6e",
+   "C": "vbcmmx",
+   "D": "96uxlq",
+   "E": "vvesew"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "D",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "8fyqj6",
+   "B": "7ogzko",
+   "C": "oudhhf",
+   "D": "z6z6oj",
+   "E": "hj18ki"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "mgj8gd",
+   "B": "xde3ct",
+   "C": "79xiav",
+   "D": "az9us1",
+   "E": "57xsnr"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "C",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "rb4hqk",
+   "B": "qjqgor",
+   "C": "nb8mzk",
+   "D": "w8w9qz",
+   "E": "f3gyy1"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "r6hlam",
+   "B": "zbki5u",
+   "C": "msq049",
+   "D": "utf03b",
+   "E": "1s39l2"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "2wf4tx",
+   "B": "or8279",
+   "C": "nojgw1",
+   "D": "fs33pd",
+   "E": "s26ed9"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "E",
+   "B",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "79r1aq",
+   "B": "de07gr",
+   "C": "zgj38r",
+   "D": "bypc9o",
+   "E": "bhicvg"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "A",
+   "D",
+   "E"
+  ],
+  "labels": {
+   "A": "25puil",
+   "B": "ese3oe",
+   "C": "5kxvss",
+   "D": "d113nd",
+   "E": "hd911y"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "cy6gt5",
+   "B": "v39qoo",
+   "C": "t8kjdn",
+   "D": "vziiq8",
+   "E": "y6how1"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "ii752r",
+   "B": "5x3fjd",
+   "C": "0hl0d6",
+   "D": "ub32ac",
+   "E": "cx4zih"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "4do9e8",
+   "B": "2bn7fa",
+   "C": "wwgx9n",
+   "D": "kbk59v",
+   "E": "7lq8sf"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.25,
+  "explore_count": 5,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "9uqi63",
+   "B": "3sizvd",
+   "C": "1bfuqc",
+   "D": "2kcfpe",
+   "E": "nl6z8i"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "D",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "aci5oi",
+   "B": "tgsjm2",
+   "C": "tainoy",
+   "D": "jj867u",
+   "E": "byu19a"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "E",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "bandit",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "uj3137",
+   "B": "tkqknf",
+   "C": "o2o8xj",
+   "D": "g5qw2o",
+   "E": "oc3tvp"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "C",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "C",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "helpful",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Highest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Lowest Reward"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "C",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "E",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "E",
+   "E",
+   "C",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.55,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "E",
+   "E",
+   "E",
+   "B",
+   "E",
+   "B",
+   "E"
+  ],
+  "norm_cum_regret": 0.65,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C"
+  ],
+  "norm_cum_regret": 0.575,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "ordinal",
+  "align": "misleading",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Lowest Reward",
+   "B": "High Reward",
+   "C": "Intermediate Reward",
+   "D": "Low Reward",
+   "E": "Highest Reward"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "B",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.1,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.1,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.1,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.1,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "B",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "A",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "B",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "A",
+   "D",
+   "E"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "A",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "helpful",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Productive Grassland",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Arid Desert"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "B",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "E",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "E",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.125,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "E",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "B",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "B",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "A",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "C",
+   "B",
+   "D",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "D",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "B",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "A",
+   "D",
+   "E"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "A",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "world",
+  "align": "misleading",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Arid Desert",
+   "B": "Fertile Meadow",
+   "C": "Rocky Hills",
+   "D": "Dry Scrubland",
+   "E": "Productive Grassland"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.325,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Stellar",
+   "B": "Useful",
+   "C": "Plain",
+   "D": "Poor",
+   "E": "Vile"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Brilliant",
+   "B": "Enjoyable",
+   "C": "Standard",
+   "D": "Weak",
+   "E": "Wretched"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "D",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Stellar",
+   "B": "Appealing",
+   "C": "Mainstream",
+   "D": "Faulty",
+   "E": "Abominable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.075,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Phenomenal",
+   "B": "Fine",
+   "C": "Routine",
+   "D": "Undesirable",
+   "E": "Hideous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Marvelous",
+   "B": "Enjoyable",
+   "C": "Moderate",
+   "D": "Poor",
+   "E": "Despicable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Phenomenal",
+   "B": "Agreeable",
+   "C": "Common",
+   "D": "Disappointing",
+   "E": "Appalling"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "A",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Outstanding",
+   "B": "Worthy",
+   "C": "Plain",
+   "D": "Undesirable",
+   "E": "Vile"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "B",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Superlative",
+   "B": "Valuable",
+   "C": "Mainstream",
+   "D": "Inadequate",
+   "E": "Deplorable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Brilliant",
+   "B": "Valuable",
+   "C": "Medium",
+   "D": "Inferior",
+   "E": "Lousy"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Helpful",
+   "C": "Everyday",
+   "D": "Displeasing",
+   "E": "Abominable"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Stellar",
+   "B": "Nice",
+   "C": "Generic",
+   "D": "Substandard",
+   "E": "Abysmal"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Superb",
+   "B": "Nice",
+   "C": "Conventional",
+   "D": "Inadequate",
+   "E": "Horrendous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Satisfying",
+   "C": "Regular",
+   "D": "Undesirable",
+   "E": "Ghastly"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Excellent",
+   "B": "Worthy",
+   "C": "Ordinary",
+   "D": "Weak",
+   "E": "Horrendous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Excellent",
+   "B": "Solid",
+   "C": "Standard",
+   "D": "Substandard",
+   "E": "Horrible"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Terrific",
+   "B": "Appealing",
+   "C": "Routine",
+   "D": "Inadequate",
+   "E": "Wretched"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Brilliant",
+   "B": "Useful",
+   "C": "Moderate",
+   "D": "Bad",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Marvelous",
+   "B": "Nice",
+   "C": "Conventional",
+   "D": "Unsatisfactory",
+   "E": "Disgusting"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Sublime",
+   "B": "Enjoyable",
+   "C": "Mainstream",
+   "D": "Flawed",
+   "E": "Disgusting"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Impeccable",
+   "B": "Worthy",
+   "C": "Functional",
+   "D": "Inferior",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Fabulous",
+   "B": "Agreeable",
+   "C": "Customary",
+   "D": "Weak",
+   "E": "Appalling"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Exceptional",
+   "B": "Favorable",
+   "C": "Medium",
+   "D": "Weak",
+   "E": "Lousy"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Splendid",
+   "B": "Commendable",
+   "C": "Usual",
+   "D": "Faulty",
+   "E": "Horrendous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Magnificent",
+   "B": "Useful",
+   "C": "Functional",
+   "D": "Substandard",
+   "E": "Terrible"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Terrific",
+   "B": "Decent",
+   "C": "Average",
+   "D": "Inferior",
+   "E": "Hideous"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Exquisite",
+   "B": "Appealing",
+   "C": "Routine",
+   "D": "Weak",
+   "E": "Awful"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Fabulous",
+   "B": "Worthy",
+   "C": "Conventional",
+   "D": "Inferior",
+   "E": "Vile"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Excellent",
+   "B": "Solid",
+   "C": "Moderate",
+   "D": "Unsatisfactory",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Remarkable",
+   "B": "Helpful",
+   "C": "Moderate",
+   "D": "Substandard",
+   "E": "Appalling"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.05,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "helpful",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Brilliant",
+   "B": "Positive",
+   "C": "Basic",
+   "D": "Unfavorable",
+   "E": "Atrocious"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.025,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "Vile",
+   "B": "Useful",
+   "C": "Plain",
+   "D": "Poor",
+   "E": "Stellar"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Wretched",
+   "B": "Enjoyable",
+   "C": "Standard",
+   "D": "Weak",
+   "E": "Brilliant"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "D",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Abominable",
+   "B": "Appealing",
+   "C": "Mainstream",
+   "D": "Faulty",
+   "E": "Stellar"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.275,
+  "explore_count": 2,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Hideous",
+   "B": "Fine",
+   "C": "Routine",
+   "D": "Undesirable",
+   "E": "Phenomenal"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Despicable",
+   "B": "Enjoyable",
+   "C": "Moderate",
+   "D": "Poor",
+   "E": "Marvelous"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "Appalling",
+   "B": "Agreeable",
+   "C": "Common",
+   "D": "Disappointing",
+   "E": "Phenomenal"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "C",
+   "D",
+   "A",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Vile",
+   "B": "Worthy",
+   "C": "Plain",
+   "D": "Undesirable",
+   "E": "Outstanding"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "B",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Deplorable",
+   "B": "Valuable",
+   "C": "Mainstream",
+   "D": "Inadequate",
+   "E": "Superlative"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Lousy",
+   "B": "Valuable",
+   "C": "Medium",
+   "D": "Inferior",
+   "E": "Brilliant"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Abominable",
+   "B": "Helpful",
+   "C": "Everyday",
+   "D": "Displeasing",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Abysmal",
+   "B": "Nice",
+   "C": "Generic",
+   "D": "Substandard",
+   "E": "Stellar"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "Horrendous",
+   "B": "Nice",
+   "C": "Conventional",
+   "D": "Inadequate",
+   "E": "Superb"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "E",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Ghastly",
+   "B": "Satisfying",
+   "C": "Regular",
+   "D": "Undesirable",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "C",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "Horrendous",
+   "B": "Worthy",
+   "C": "Ordinary",
+   "D": "Weak",
+   "E": "Excellent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "Horrible",
+   "B": "Solid",
+   "C": "Standard",
+   "D": "Substandard",
+   "E": "Excellent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Wretched",
+   "B": "Appealing",
+   "C": "Routine",
+   "D": "Inadequate",
+   "E": "Terrific"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "A"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Useful",
+   "C": "Moderate",
+   "D": "Bad",
+   "E": "Brilliant"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "A",
+   "D",
+   "B"
+  ],
+  "labels": {
+   "A": "Disgusting",
+   "B": "Nice",
+   "C": "Conventional",
+   "D": "Unsatisfactory",
+   "E": "Marvelous"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Disgusting",
+   "B": "Enjoyable",
+   "C": "Mainstream",
+   "D": "Flawed",
+   "E": "Sublime"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Worthy",
+   "C": "Functional",
+   "D": "Inferior",
+   "E": "Impeccable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "Appalling",
+   "B": "Agreeable",
+   "C": "Customary",
+   "D": "Weak",
+   "E": "Fabulous"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "Lousy",
+   "B": "Favorable",
+   "C": "Medium",
+   "D": "Weak",
+   "E": "Exceptional"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "E",
+   "B",
+   "C",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "Horrendous",
+   "B": "Commendable",
+   "C": "Usual",
+   "D": "Faulty",
+   "E": "Splendid"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Terrible",
+   "B": "Useful",
+   "C": "Functional",
+   "D": "Substandard",
+   "E": "Magnificent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.375,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Hideous",
+   "B": "Decent",
+   "C": "Average",
+   "D": "Inferior",
+   "E": "Terrific"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "Awful",
+   "B": "Appealing",
+   "C": "Routine",
+   "D": "Weak",
+   "E": "Exquisite"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "B",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "A",
+   "C",
+   "D"
+  ],
+  "labels": {
+   "A": "Vile",
+   "B": "Worthy",
+   "C": "Conventional",
+   "D": "Inferior",
+   "E": "Fabulous"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "C",
+   "B",
+   "D"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Solid",
+   "C": "Moderate",
+   "D": "Unsatisfactory",
+   "E": "Excellent"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "Appalling",
+   "B": "Helpful",
+   "C": "Moderate",
+   "D": "Substandard",
+   "E": "Remarkable"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "sentiment",
+  "align": "misleading",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "D",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "Atrocious",
+   "B": "Positive",
+   "C": "Basic",
+   "D": "Unfavorable",
+   "E": "Brilliant"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.35,
+  "explore_count": 3,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 0,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "D",
+   "B",
+   "E"
+  ],
+  "labels": {
+   "A": "gy0ia4",
+   "B": "s0l1qp",
+   "C": "j2v1z2",
+   "D": "xc98tu",
+   "E": "lr8ae9"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "B",
+   "D",
+   "E",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 1,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "fty5zm",
+   "B": "vok92w",
+   "C": "bid0hd",
+   "D": "mrv1aq",
+   "E": "os3016"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "D",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 2,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "ewuwl0",
+   "B": "48umb3",
+   "C": "cxns1s",
+   "D": "mnl783",
+   "E": "pxi1k2"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 3,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "3vr2qc",
+   "B": "sdi1pq",
+   "C": "nkiua1",
+   "D": "ir357r",
+   "E": "6n191l"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "B",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 4,
+  "k": 5,
+  "order": [
+   "C",
+   "A",
+   "B",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "froc33",
+   "B": "e7gl75",
+   "C": "dq8sn6",
+   "D": "04uq0k",
+   "E": "98dxo4"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "A",
+   "B",
+   "D",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.25,
+  "explore_count": 5,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 5,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "D",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "hnr1gl",
+   "B": "4rk3no",
+   "C": "2w1zyn",
+   "D": "nr56pb",
+   "E": "93ifgy"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 6,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "f4vm26",
+   "B": "20ltzb",
+   "C": "04ncrk",
+   "D": "y56dqd",
+   "E": "210h5l"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "D",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 7,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "C",
+   "A",
+   "E"
+  ],
+  "labels": {
+   "A": "l3ue9d",
+   "B": "a7udii",
+   "C": "pye36p",
+   "D": "f8zaqv",
+   "E": "77hre2"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 8,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "2euzn7",
+   "B": "5sjwtn",
+   "C": "xxudga",
+   "D": "7o61ul",
+   "E": "hhq0z3"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "A",
+   "E",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 9,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "8je6rs",
+   "B": "9me0fw",
+   "C": "j7oap3",
+   "D": "kmswiq",
+   "E": "9tpbzd"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 80,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "B",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "jwtqqi",
+   "B": "b2v5yn",
+   "C": "x27lw1",
+   "D": "qgub3q",
+   "E": "myppg5"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "B",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 81,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "ibs8t6",
+   "B": "4gazf3",
+   "C": "w5jhl6",
+   "D": "pr2453",
+   "E": "bb4jtk"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "D",
+   "B",
+   "C",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 82,
+  "k": 5,
+  "order": [
+   "C",
+   "E",
+   "B",
+   "D",
+   "A"
+  ],
+  "labels": {
+   "A": "phwpj4",
+   "B": "rykxq6",
+   "C": "6f1n6f",
+   "D": "17lskp",
+   "E": "za1582"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "E",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 83,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "E",
+   "C",
+   "A"
+  ],
+  "labels": {
+   "A": "vw81bn",
+   "B": "ijkgp9",
+   "C": "5qh4pj",
+   "D": "7jnkmu",
+   "E": "ixwwli"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "E",
+   "D",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B",
+   "B"
+  ],
+  "norm_cum_regret": 0.4,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 84,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "5dwb8t",
+   "B": "aglm5n",
+   "C": "usy8ij",
+   "D": "cogrjs",
+   "E": "ct0c69"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 85,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "zlkbb5",
+   "B": "2j2lt3",
+   "C": "k1wza9",
+   "D": "gsn5wa",
+   "E": "yc3tqu"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 86,
+  "k": 5,
+  "order": [
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ],
+  "labels": {
+   "A": "ir57fm",
+   "B": "gtjw5l",
+   "C": "qhylco",
+   "D": "o2h869",
+   "E": "d4jx4n"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "C",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 87,
+  "k": 5,
+  "order": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "lxxyal",
+   "B": "lj8nju",
+   "C": "ed5zdu",
+   "D": "ttcxt9",
+   "E": "wardi3"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "A",
+   "D",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 88,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "C",
+   "A",
+   "B"
+  ],
+  "labels": {
+   "A": "3doml0",
+   "B": "078en4",
+   "C": "54vder",
+   "D": "1binez",
+   "E": "y3a0om"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 89,
+  "k": 5,
+  "order": [
+   "D",
+   "E",
+   "A",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "74w5o4",
+   "B": "s6xe7p",
+   "C": "55bo0j",
+   "D": "3ioxez",
+   "E": "ih6570"
+  },
+  "context": null,
+  "arms": [
+   "C",
+   "B",
+   "A",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 90,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "jxelsu",
+   "B": "ioke30",
+   "C": "uwa4q9",
+   "D": "2gq84a",
+   "E": "2rnjs5"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "B",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 91,
+  "k": 5,
+  "order": [
+   "E",
+   "D",
+   "A",
+   "C",
+   "B"
+  ],
+  "labels": {
+   "A": "5pc0tg",
+   "B": "5cw6ff",
+   "C": "oi7fss",
+   "D": "cnbaty",
+   "E": "lnqa0y"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "A",
+   "D",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 92,
+  "k": 5,
+  "order": [
+   "B",
+   "E",
+   "D",
+   "A",
+   "C"
+  ],
+  "labels": {
+   "A": "u2lgx3",
+   "B": "771o1g",
+   "C": "bs25g0",
+   "D": "077x49",
+   "E": "6j8e1j"
+  },
+  "context": null,
+  "arms": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 93,
+  "k": 5,
+  "order": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ],
+  "labels": {
+   "A": "1v6pdq",
+   "B": "8dfibw",
+   "C": "nymfia",
+   "D": "thmkb0",
+   "E": "o75v3u"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "D",
+   "E",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 94,
+  "k": 5,
+  "order": [
+   "A",
+   "E",
+   "B",
+   "D",
+   "C"
+  ],
+  "labels": {
+   "A": "1nr6t4",
+   "B": "ank0yk",
+   "C": "p3dgui",
+   "D": "x6s7vc",
+   "E": "1utt1h"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.2,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 95,
+  "k": 5,
+  "order": [
+   "B",
+   "D",
+   "A",
+   "E",
+   "C"
+  ],
+  "labels": {
+   "A": "r5il7y",
+   "B": "g98spp",
+   "C": "d414f2",
+   "D": "ewqi81",
+   "E": "gmuho7"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "D",
+   "A",
+   "C",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 96,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "C",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "mqt626",
+   "B": "edmmia",
+   "C": "qf8t33",
+   "D": "9acotu",
+   "E": "h6vasb"
+  },
+  "context": null,
+  "arms": [
+   "B",
+   "A",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.175,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 97,
+  "k": 5,
+  "order": [
+   "B",
+   "A",
+   "C",
+   "E",
+   "D"
+  ],
+  "labels": {
+   "A": "tsz3nr",
+   "B": "n1hvpl",
+   "C": "e4srz1",
+   "D": "8f1swl",
+   "E": "mywg9a"
+  },
+  "context": null,
+  "arms": [
+   "D",
+   "A",
+   "C",
+   "E",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.225,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 98,
+  "k": 5,
+  "order": [
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
+  "labels": {
+   "A": "1n6oje",
+   "B": "0td2u6",
+   "C": "g3yvuj",
+   "D": "7qjhn2",
+   "E": "6kxzed"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.15,
+  "explore_count": 4,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ },
+ {
+  "domain": "farm",
+  "nom": "alphanumeric",
+  "align": "none",
+  "rep": 99,
+  "k": 5,
+  "order": [
+   "B",
+   "C",
+   "E",
+   "A",
+   "D"
+  ],
+  "labels": {
+   "A": "45qjhx",
+   "B": "t8io4r",
+   "C": "gusgh1",
+   "D": "i03nds",
+   "E": "7okrjg"
+  },
+  "context": null,
+  "arms": [
+   "A",
+   "C",
+   "E",
+   "D",
+   "B",
+   "A",
+   "A",
+   "A",
+   "A",
+   "A"
+  ],
+  "norm_cum_regret": 0.25,
+  "explore_count": 5,
+  "n_parse_fail_random": 0,
+  "n_retried": 0
+ }
+]

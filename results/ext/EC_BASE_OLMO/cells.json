@@ -1,0 +1,114 @@
+[
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.15,
+  "regret_ci95": [
+   0.06666666666666667,
+   0.23333333333333334
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.8833333333333333,
+  "regret_ci95": [
+   0.8,
+   0.95
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.38333333333333336,
+  "regret_ci95": [
+   0.25,
+   0.5166666666666667
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.55,
+  "regret_ci95": [
+   0.4,
+   0.6833333333333333
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.13333333333333333,
+  "regret_ci95": [
+   0.06666666666666667,
+   0.21666666666666667
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.8,
+  "regret_ci95": [
+   0.7,
+   0.9
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.4,
+  "regret_ci95": [
+   0.25,
+   0.5666666666666667
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 1
+ }
+]

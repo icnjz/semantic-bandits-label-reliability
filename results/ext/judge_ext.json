@@ -1,0 +1,187 @@
+{
+ "lines": {
+  "X1_E5_QWEN_S0": true,
+  "X2_E5_QWEN_S0": true,
+  "X1_E5_QWEN_S1": true,
+  "X2_E5_QWEN_S1": true,
+  "X1_EC_QWEN_S0": true,
+  "X2_EC_QWEN_S0": false,
+  "X1_EC_QWEN_S1": true,
+  "X2_EC_QWEN_S1": false,
+  "X1_E5_OLMO_S0": true,
+  "X2_E5_OLMO_S0": true,
+  "X1_E5_OLMO_S1": true,
+  "X2_E5_OLMO_S1": true,
+  "X1_EC_OLMO_S0": false,
+  "X2_EC_OLMO_S0": false,
+  "X1_EC_OLMO_S1": true,
+  "X2_EC_OLMO_S1": true,
+  "L1_teacher_beyond_script": {
+   "pass": false,
+   "v13_minus_script": -0.0418,
+   "ci95": [
+    -0.0493,
+    -0.0342
+   ],
+   "v13_fresh60": 0.1943,
+   "script_fresh60": 0.2361
+  },
+  "L2_semantic_information": {
+   "pass": false,
+   "v13_minus_agn": -0.0734,
+   "ci95": [
+    -0.0825,
+    -0.0643
+   ],
+   "misleading_diff": 0.0374,
+   "misleading_ci95": [
+    0.0236,
+    0.0517
+   ]
+  },
+  "L3_policy_identification": {
+   "pass": true,
+   "v13_dp_rate": 0.7803,
+   "script_dp_rate": 0.6591,
+   "diff": 0.1212,
+   "ci95": [
+    0.0568,
+    0.1856
+   ],
+   "p_boot": 0.0002
+  },
+  "L4_v13_vs_agentic_dpo": {
+   "verdict": "AGENTIC_DPO_WINS",
+   "v13_minus_adpo": 0.0047,
+   "ci95": [
+    -0.003,
+    0.0124
+   ],
+   "fidelity": {
+    "v13": 0.447,
+    "adpo": 0.7955,
+    "diff": -0.3485,
+    "ci95": [
+     -0.4735,
+     -0.2273
+    ]
+   }
+  },
+  "L5_failure_criterion": true
+ },
+ "means": {
+  "E5_AGN_QWEN": {
+   "dev": 0.2765,
+   "fresh20": 0.2624,
+   "fresh60": 0.2677
+  },
+  "E5_BASE_OLMO": {
+   "dev": 0.4205,
+   "fresh20": 0.4521
+  },
+  "E5_V13_OLMO_S0": {
+   "dev": 0.233,
+   "fresh20": 0.2251
+  },
+  "E5_AGN_OLMO": {
+   "dev": 0.2742,
+   "fresh20": 0.2609
+  },
+  "E5_V13_OLMO_S1": {
+   "dev": 0.1993,
+   "fresh20": 0.1915
+  },
+  "E5_WX_OLMO": {
+   "dev": 0.4747,
+   "fresh20": 0.4225
+  },
+  "E5_ADPO_OLMO_S1": {
+   "dev": 0.2285,
+   "fresh20": 0.2129
+  },
+  "N6_V13_QWEN_S0": {
+   "dev": 0.102,
+   "fresh20": 0.1007
+  },
+  "EC_ADPO_QWEN_S1": {
+   "dev": 0.1392,
+   "fresh20": 0.1392
+  },
+  "EC_AGN_OLMO": {
+   "dev": 0.15,
+   "fresh20": 0.1496
+  },
+  "EC_ADPO_OLMO_S1": {
+   "dev": 0.1167,
+   "fresh20": 0.1258
+  },
+  "E5_V13_QWEN_S1": {
+   "dev": 0.222,
+   "fresh20": 0.2166,
+   "fresh60": 0.2174
+  },
+  "N12_V13_QWEN_S0": {
+   "dev": 0.122,
+   "fresh20": 0.1583
+  },
+  "E5_SCRIPT_QWEN_S0": {
+   "dev": 0.2483,
+   "fresh20": 0.2367,
+   "fresh60": 0.2361
+  },
+  "EC_V13_QWEN_S0": {
+   "dev": 0.1333,
+   "fresh20": 0.1367
+  },
+  "EC_WX_OLMO": {
+   "dev": 0.46,
+   "fresh20": 0.4463
+  },
+  "E5_BASE_QWEN": {
+   "dev": 0.45,
+   "fresh20": 0.4353
+  },
+  "EC_BASE_QWEN": {
+   "dev": 0.475,
+   "fresh20": 0.5046
+  },
+  "EC_V13_OLMO_S1": {
+   "dev": 0.1017,
+   "fresh20": 0.105
+  },
+  "E5_WX_QWEN": {
+   "dev": 0.329,
+   "fresh20": 0.3449
+  },
+  "E5_V13_QWEN_S0": {
+   "dev": 0.203,
+   "fresh20": 0.1952,
+   "fresh60": 0.1943
+  },
+  "EC_AGN_QWEN": {
+   "dev": 0.1475,
+   "fresh20": 0.1575
+  },
+  "EC_WX_QWEN": {
+   "dev": 0.3375,
+   "fresh20": 0.3317
+  },
+  "EC_BASE_OLMO": {
+   "dev": 0.5083,
+   "fresh20": 0.4708
+  },
+  "EC_V13_QWEN_S1": {
+   "dev": 0.1467,
+   "fresh20": 0.1408
+  },
+  "EC_V13_OLMO_S0": {
+   "dev": 0.2342,
+   "fresh20": 0.3267
+  },
+  "E5_ADPO_QWEN_S1": {
+   "dev": 0.2055,
+   "fresh20": 0.2165,
+   "fresh60": 0.2128
+  }
+ }
+}

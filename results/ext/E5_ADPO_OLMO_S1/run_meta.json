@@ -1,0 +1,26 @@
+{
+ "args": {
+  "backend": "vllm",
+  "model": "/root/models/Olmo-3-7B-Instruct",
+  "out": "out/E5_ADPO_OLMO_S1",
+  "reps": 10,
+  "rep_list": "0-9,80-99",
+  "turns": 10,
+  "cells": "all",
+  "max_model_len": 2048,
+  "hf_dtype": "bfloat16",
+  "lora": "/root/sa/adapters/ADPO_OLMO_S1_R5_REGEN",
+  "variant": "none",
+  "scale": "H+",
+  "sigma": 0.0,
+  "k": 5
+ },
+ "wall_s": 280.36007022857666,
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20
+ },
+ "thinking_budget": 150,
+ "new_token_budget": 512
+}

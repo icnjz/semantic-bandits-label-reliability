@@ -1,0 +1,114 @@
+[
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.0,
+  "regret_ci95": [
+   0.0,
+   0.0
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 1.0,
+  "regret_ci95": [
+   1.0,
+   1.0
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.0016666666666666668,
+  "regret_ci95": [
+   0.0,
+   0.005000000000000001
+  ],
+  "explore": 1.0333333333333334,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.9333333333333333,
+  "regret_ci95": [
+   0.8666666666666667,
+   0.9833333333333333
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.21666666666666667,
+  "regret_ci95": [
+   0.11666666666666667,
+   0.3333333333333333
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.8166666666666667,
+  "regret_ci95": [
+   0.7166666666666667,
+   0.9
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.4666666666666667,
+  "regret_ci95": [
+   0.31666666666666665,
+   0.6166666666666667
+  ],
+  "explore": 1.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ }
+]

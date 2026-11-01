@@ -1,0 +1,6583 @@
+{
+ "summary": {
+  "all": {
+   "dp": 0.7992,
+   "contra": 0.1515,
+   "none": 0.0492,
+   "parse_fail": 0.0,
+   "n": 264
+  },
+  "bandit/ordinal": {
+   "dp": 0.7614,
+   "contra": 0.1477,
+   "none": 0.0909,
+   "parse_fail": 0.0,
+   "n": 88
+  },
+  "bandit/sentiment": {
+   "dp": 0.8182,
+   "contra": 0.1477,
+   "none": 0.0341,
+   "parse_fail": 0.0,
+   "n": 88
+  },
+  "farm/world": {
+   "dp": 0.8182,
+   "contra": 0.1591,
+   "none": 0.0227,
+   "parse_fail": 0.0,
+   "n": 88
+  }
+ },
+ "decisions": [
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1). Tried 2 of 5; untried: Low Reward, Intermediate Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1). Tried 2 of 5; untried: Intermediate Reward, Low Reward, Lowest Reward. Check Intermediate Reward next.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1). Tried 2 of 5; untried: Low Reward, Intermediate Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1). Tried 2 of 5; untried: Intermediate Reward, Low Reward, Lowest Reward. Check Intermediate Reward next.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Pleasant 75.0 (1), Marvelous 62.5 (1). Tried 2 of 5; untried: Basic, Disappointing, Abysmal. Check Basic next.\n</think>\n\n<action> Basic </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Worthy 75.0 (1), Terrific 62.5 (1). Tried 2 of 5; untried: Customary, Repulsive, Unpleasant. Check Customary next.\n</think>\n\n<action> Customary </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Welcome 75.0 (1), Wonderful 62.5 (1). Tried 2 of 5; untried: Standard, Substandard, Dreadful. Check Standard next.\n</think>\n\n<action> Standard </action>"
+  },
+  {
+   "state": 0,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Enjoyable 75.0 (1), Remarkable 62.5 (1). Tried 2 of 5; untried: Mainstream, Despicable, Displeasing. Check Mainstream next.\n</think>\n\n<action> Mainstream </action>"
+  },
+  {
+   "state": 0,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1). Tried 2 of 5; untried: Rocky Hills, Dry Scrubland, Arid Desert. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 0,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1). Tried 2 of 5; untried: Rocky Hills, Dry Scrubland, Arid Desert. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 0,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1). Tried 2 of 5; untried: Rocky Hills, Arid Desert, Dry Scrubland. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 0,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 2,
+   "observed_best_to_worst": [
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1). Tried 2 of 5; untried: Dry Scrubland, Arid Desert, Rocky Hills. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Lowest Reward 0.0 (0), Low Reward 0.0 (0). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Brilliant 62.5 (1), Generic 50.0 (1), Disgusting 25.0 (1). Tried 4 of 5; untried: Disappointing. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Phenomenal 62.5 (1), Basic 50.0 (1), Dismal 25.0 (1). Tried 4 of 5; untried: Flawed. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Satisfying 75.0 (1), Fabulous 62.5 (1), Typical 50.0 (1), Abysmal 25.0 (1). Tried 4 of 5; untried: Mediocre. Satisfying is very likely best; exploit it.\n</think>\n\n<action> Satisfying </action>"
+  },
+  {
+   "state": 1,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Nice 75.0 (1), Wonderful 62.5 (1), Medium 50.0 (1), Disgusting 25.0 (1). Tried 4 of 5; untried: Displeasing. Nice is very likely best; exploit it.\n</think>\n\n<action> Nice </action>"
+  },
+  {
+   "state": 1,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 1,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 1,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 1,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Terrific 62.5 (1), Medium 50.0 (1), Flawed 37.5 (1). Tried 4 of 5; untried: Disgusting. Commendable is very likely best; exploit it.\n</think>\n\n<action> Commendable </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Phenomenal 62.5 (1), Plain 50.0 (1), Mediocre 37.5 (1). Tried 4 of 5; untried: Disgusting. Commendable is very likely best; exploit it.\n</think>\n\n<action> Commendable </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Outstanding 62.5 (1), Everyday 50.0 (1), Problematic 37.5 (1). Tried 4 of 5; untried: Disgusting. Commendable is very likely best; exploit it.\n</think>\n\n<action> Commendable </action>"
+  },
+  {
+   "state": 2,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Excellent 62.5 (1), Generic 50.0 (1), Lacking 37.5 (1). Tried 4 of 5; untried: Dreadful. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 2,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 2,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 2,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 2,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Rocky Hills 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Low Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Low Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Low Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Low Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Good 75.0 (1), Exquisite 62.5 (1), Subpar 50.0 (1), Plain 37.5 (1). Tried 4 of 5; untried: Terrible. Good is very likely best; exploit it.\n</think>\n\n<action> Good </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Satisfying 75.0 (1), Phenomenal 62.5 (1), Bad 50.0 (1), Standard 37.5 (1). Tried 4 of 5; untried: Horrendous. Satisfying is very likely best; exploit it.\n</think>\n\n<action> Satisfying </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Solid 75.0 (1), Superlative 62.5 (1), Problematic 50.0 (1), Usual 37.5 (1). Tried 4 of 5; untried: Horrendous. Solid is very likely best; exploit it.\n</think>\n\n<action> Solid </action>"
+  },
+  {
+   "state": 3,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Welcome 75.0 (1), Wonderful 62.5 (1), Substandard 50.0 (1), Average 37.5 (1). Tried 4 of 5; untried: Atrocious. Welcome is very likely best; exploit it.\n</think>\n\n<action> Welcome </action>"
+  },
+  {
+   "state": 3,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Dry Scrubland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 3,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 50.0 (1), Productive Grassland 62.5 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 3,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Dry Scrubland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 3,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Dry Scrubland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Intermediate Reward 25.0 (1), Lowest Reward 37.5 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Lowest Reward 37.5 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Lowest Reward 37.5 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 62.5 (1), Lowest Reward 37.5 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Terrific 62.5 (1), Disgusting 37.5 (1), Functional 25.0 (1). Tried 4 of 5; untried: Undesirable. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 0,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fabulous 62.5 (1), Deplorable 37.5 (1), Fine 75.0 (1), Routine 25.0 (1). Tried 4 of 5; untried: Substandard. Fabulous is very likely best; exploit it.\n</think>\n\n<action> Fabulous </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Worthy 75.0 (1), Stellar 62.5 (1), Vile 37.5 (1), Average 25.0 (1). Tried 4 of 5; untried: Displeasing. Worthy is very likely best; exploit it.\n</think>\n\n<action> Worthy </action>"
+  },
+  {
+   "state": 4,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Decent 75.0 (1), Terrific 62.5 (1), Deplorable 37.5 (1), Customary 25.0 (1). Tried 4 of 5; untried: Inferior. Decent is very likely best; exploit it.\n</think>\n\n<action> Decent </action>"
+  },
+  {
+   "state": 4,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Arid Desert 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 4,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Arid Desert 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 4,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Arid Desert 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 4,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 62.5 (1), Arid Desert 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Pleasant 75.0 (1), Regular 62.5 (1), Outstanding 50.0 (1), Horrendous 25.0 (1). Tried 4 of 5; untried: Shoddy. Pleasant is very likely best; exploit it.\n</think>\n\n<action> Pleasant </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Pleasant 75.0 (1), Regular 62.5 (1), Phenomenal 50.0 (1), Pathetic 25.0 (1). Tried 4 of 5; untried: Inadequate. Pleasant is very likely best; exploit it.\n</think>\n\n<action> Pleasant </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Average 62.5 (1), Brilliant 50.0 (1), Lousy 25.0 (1). Tried 4 of 5; untried: Unpleasant. Commendable is very likely best; exploit it.\n</think>\n\n<action> Commendable </action>"
+  },
+  {
+   "state": 5,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Agreeable 75.0 (1), Average 62.5 (1), Exquisite 50.0 (1), Abominable 25.0 (1). Tried 4 of 5; untried: Weak. Agreeable is very likely best; exploit it.\n</think>\n\n<action> Agreeable </action>"
+  },
+  {
+   "state": 5,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 5,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 5,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 5,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 50.0 (1), Intermediate Reward 62.5 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Solid 75.0 (1), Routine 62.5 (1), Magnificent 50.0 (1). Tried 3 of 5; untried: Flawed, Deplorable. Check Flawed next.\n</think>\n\n<action> Flawed </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Everyday 62.5 (1), Splendid 50.0 (1). Tried 3 of 5; untried: Flawed, Deplorable. Check Flawed next.\n</think>\n\n<action> Flawed </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Mainstream 62.5 (1), Wonderful 50.0 (1). Tried 3 of 5; untried: Flawed, Vile. Check Flawed next.\n</think>\n\n<action> Flawed </action>"
+  },
+  {
+   "state": 6,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 4,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Helpful 75.0 (1), Generic 62.5 (1), Remarkable 50.0 (1). Tried 3 of 5; untried: Pathetic, Unsatisfactory. Check Pathetic next.\n</think>\n\n<action> Pathetic </action>"
+  },
+  {
+   "state": 6,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 6,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 6,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 6,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Low Reward 37.5 (1), Highest Reward 50.0 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Enjoyable 75.0 (1), Standard 62.5 (1), Bad 37.5 (1), Extraordinary 50.0 (1). Tried 4 of 5; untried: Despicable. Enjoyable is very likely best; exploit it.\n</think>\n\n<action> Enjoyable </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Attractive 75.0 (1), Ordinary 62.5 (1), Outstanding 50.0 (1), Faulty 37.5 (1). Tried 4 of 5; untried: Vile. Attractive is very likely best; exploit it.\n</think>\n\n<action> Attractive </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Moderate 62.5 (1), Excellent 50.0 (1), Shoddy 37.5 (1). Tried 4 of 5; untried: Pathetic. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 7,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Worthy 75.0 (1), Functional 62.5 (1), Fabulous 50.0 (1), Disappointing 37.5 (1). Tried 4 of 5; untried: Deplorable. Worthy is very likely best; exploit it.\n</think>\n\n<action> Worthy </action>"
+  },
+  {
+   "state": 7,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 7,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 7,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 7,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 25.0 (1), Lowest Reward 37.5 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Highest Reward 25.0 (1), Lowest Reward 0.0 (0), Low Reward 0.0 (0). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Enjoyable 75.0 (1), Ordinary 62.5 (1), Horrendous 37.5 (1), Remarkable 25.0 (1). Tried 4 of 5; untried: Problematic. Enjoyable is very likely best; exploit it.\n</think>\n\n<action> Enjoyable </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Satisfying 75.0 (1), Everyday 62.5 (1), Repulsive 37.5 (1), Superlative 25.0 (1). Tried 4 of 5; untried: Inferior. Satisfying is very likely best; exploit it.\n</think>\n\n<action> Satisfying </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Useful 75.0 (1), Plain 62.5 (1), Wretched 37.5 (1), Wonderful 25.0 (1). Tried 4 of 5; untried: Faulty. Useful is very likely best; exploit it.\n</think>\n\n<action> Useful </action>"
+  },
+  {
+   "state": 8,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Helpful 75.0 (1), Everyday 62.5 (1), Deplorable 37.5 (1), Brilliant 25.0 (1). Tried 4 of 5; untried: Displeasing. Helpful is very likely best; exploit it.\n</think>\n\n<action> Helpful </action>"
+  },
+  {
+   "state": 8,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 25.0 (1), Arid Desert 37.5 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 8,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Productive Grassland 25.0 (1), Arid Desert 37.5 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 8,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 8,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Rocky Hills 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 50.0 (1), Low Reward 62.5 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 62.5 (1), High Reward 75.0 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Welcome 75.0 (1), Subpar 62.5 (1), Exquisite 50.0 (1), Ordinary 37.5 (1). Tried 4 of 5; untried: Horrendous. Welcome is very likely best; exploit it.\n</think>\n\n<action> Welcome </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Attractive 75.0 (1), Wonderful 50.0 (1), Deficient 62.5 (1), Functional 37.5 (1). Tried 4 of 5; untried: Despicable. Attractive is very likely best; exploit it.\n</think>\n\n<action> Attractive </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Decent 75.0 (1), Deficient 62.5 (1), Wonderful 50.0 (1), Mainstream 37.5 (1). Tried 4 of 5; untried: Terrible. Decent is very likely best; exploit it.\n</think>\n\n<action> Decent </action>"
+  },
+  {
+   "state": 9,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Inferior 62.5 (1), Medium 37.5 (1), Extraordinary 50.0 (1). Tried 4 of 5; untried: Despicable. Commendable is very likely best; exploit it.\n</think>\n\n<action> Commendable </action>"
+  },
+  {
+   "state": 9,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 9,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 9,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Productive Grassland 50.0 (1), Dry Scrubland 62.5 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 9,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 0,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 0.0 (0), Lowest Reward 0.0 (0). Tried 3 of 5; untried: Lowest Reward, Highest Reward. Check Highest Reward next.\n</think>\n\n<action> Highest Reward </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Low Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 4,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commendable 75.0 (1), Deficient 62.5 (1), Medium 50.0 (1), Splendid 37.5 (1). Tried 4 of 5; untried: Hideous. Check Hideous next.\n</think>\n\n<action> Hideous </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Satisfying 75.0 (1), Lacking 62.5 (1), Average 50.0 (1), Exquisite 37.5 (1). Tried 4 of 5; untried: Terrible. Satisfying is very likely best; exploit it.\n</think>\n\n<action> Satisfying </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Helpful 75.0 (1), Problematic 62.5 (1), Ordinary 50.0 (1), Splendid 37.5 (1). Tried 4 of 5; untried: Dreadful. Helpful is very likely best; exploit it.\n</think>\n\n<action> Helpful </action>"
+  },
+  {
+   "state": 10,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Positive 75.0 (1), Displeasing 62.5 (1), Ordinary 50.0 (1), Marvelous 37.5 (1). Tried 4 of 5; untried: Horrendous. Positive is very likely best; exploit it.\n</think>\n\n<action> Positive </action>"
+  },
+  {
+   "state": 10,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 10,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 10,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 10,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Dry Scrubland 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 37.5 (1), Intermediate Reward 25.0 (1), Lowest Reward 50.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 37.5 (1), Lowest Reward 50.0 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 37.5 (1), Lowest Reward 50.0 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Highest Reward 37.5 (1), Lowest Reward 50.0 (1), Intermediate Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Valuable 75.0 (1), Vile 50.0 (1), Phenomenal 37.5 (1), Functional 25.0 (1). Tried 4 of 5; untried: Problematic. Valuable is very likely best; exploit it.\n</think>\n\n<action> Valuable </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Helpful 75.0 (1), Vile 50.0 (1), Remarkable 37.5 (1), Customary 25.0 (1). Tried 4 of 5; untried: Weak. Helpful is very likely best; exploit it.\n</think>\n\n<action> Helpful </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dreadful 50.0 (1), Decent 75.0 (1), Brilliant 37.5 (1), Plain 25.0 (1). Tried 4 of 5; untried: Lacking. Decent is very likely best; exploit it.\n</think>\n\n<action> Decent </action>"
+  },
+  {
+   "state": 11,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Valuable 75.0 (1), Atrocious 50.0 (1), Superlative 37.5 (1), Ordinary 25.0 (1). Tried 4 of 5; untried: Mediocre. Valuable is very likely best; exploit it.\n</think>\n\n<action> Valuable </action>"
+  },
+  {
+   "state": 11,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Productive Grassland 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 11,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Productive Grassland 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 11,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Productive Grassland 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 11,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Productive Grassland 37.5 (1), Rocky Hills 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Lowest Reward 50.0 (1), Intermediate Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Highest Reward 25.0 (1), Intermediate Reward 37.5 (1), High Reward 75.0 (1), Lowest Reward 50.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: High Reward 75.0 (1), Intermediate Reward 37.5 (1), Lowest Reward 50.0 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Highest Reward 25.0 (1), Low Reward 0.0 (0), Intermediate Reward 37.5 (1), High Reward 75.0 (1), Lowest Reward 50.0 (1). Tried 4 of 5; untried: Low Reward. High Reward is very likely best; exploit it.\n</think>\n\n<action> High Reward </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Worthy 75.0 (1), Vile 50.0 (1), Mainstream 37.5 (1), Terrific 25.0 (1). Tried 4 of 5; untried: Poor. Worthy is very likely best; exploit it.\n</think>\n\n<action> Worthy </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Favorable 75.0 (1), Deplorable 50.0 (1), Basic 37.5 (1), Exceptional 25.0 (1). Tried 4 of 5; untried: Deficient. Favorable is very likely best; exploit it.\n</think>\n\n<action> Favorable </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Likable 75.0 (1), Medium 37.5 (1), Repulsive 50.0 (1), Exceptional 25.0 (1). Tried 4 of 5; untried: Unsatisfactory. Likable is very likely best; exploit it.\n</think>\n\n<action> Likable </action>"
+  },
+  {
+   "state": 12,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Horrible 50.0 (1), Appealing 75.0 (1), Generic 37.5 (1), Fabulous 25.0 (1). Tried 4 of 5; untried: Bad. Appealing is very likely best; exploit it.\n</think>\n\n<action> Appealing </action>"
+  },
+  {
+   "state": 12,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Rocky Hills 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 12,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Rocky Hills 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 12,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Rocky Hills 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 12,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 1,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Fertile Meadow 75.0 (1), Arid Desert 50.0 (1), Rocky Hills 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Fertile Meadow is very likely best; exploit it.\n</think>\n\n<action> Fertile Meadow </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Lowest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Average 75.0 (1), Satisfying 62.5 (1), Phenomenal 50.0 (1), Atrocious 25.0 (1). Tried 4 of 5; untried: Deficient. Average is very likely best; exploit it.\n</think>\n\n<action> Average </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Customary 75.0 (1), Decent 62.5 (1), Phenomenal 50.0 (1), Disgusting 25.0 (1). Tried 4 of 5; untried: Inferior. Customary is very likely best; exploit it.\n</think>\n\n<action> Customary </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Plain 75.0 (1), Positive 62.5 (1), Phenomenal 50.0 (1), Horrendous 25.0 (1). Tried 4 of 5; untried: Faulty. Plain is very likely best; exploit it.\n</think>\n\n<action> Plain </action>"
+  },
+  {
+   "state": 13,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Regular 75.0 (1), Valuable 62.5 (1), Fabulous 50.0 (1), Dismal 25.0 (1). Tried 4 of 5; untried: Unfavorable. Regular is very likely best; exploit it.\n</think>\n\n<action> Regular </action>"
+  },
+  {
+   "state": 13,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 13,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 13,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 13,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Productive Grassland 50.0 (1), Fertile Meadow 62.5 (1), Arid Desert 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Lowest Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 4,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Conventional 75.0 (1), Positive 62.5 (1), Stellar 50.0 (1). Tried 3 of 5; untried: Ghastly, Unfavorable. Check Ghastly next.\n</think>\n\n<action> Ghastly </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Standard 75.0 (1), Commendable 62.5 (1), Superlative 50.0 (1). Tried 3 of 5; untried: Inadequate, Horrendous. Check Inadequate next.\n</think>\n\n<action> Inadequate </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Moderate 75.0 (1), Useful 62.5 (1), Exquisite 50.0 (1). Tried 3 of 5; untried: Unsatisfactory, Hideous. Check Unsatisfactory next.\n</think>\n\n<action> Unsatisfactory </action>"
+  },
+  {
+   "state": 14,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Common 75.0 (1), Appealing 62.5 (1), Impeccable 50.0 (1). Tried 3 of 5; untried: Unpleasant, Wretched. Check Unpleasant next.\n</think>\n\n<action> Unpleasant </action>"
+  },
+  {
+   "state": 14,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 14,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 14,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 14,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 3,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1). Tried 3 of 5; untried: Dry Scrubland, Arid Desert. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Low Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Average 75.0 (1), Excellent 50.0 (1), Positive 62.5 (1), Weak 37.5 (1). Tried 4 of 5; untried: Lousy. Average is very likely best; exploit it.\n</think>\n\n<action> Average </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Routine 75.0 (1), Satisfying 62.5 (1), Superb 50.0 (1), Inadequate 37.5 (1). Tried 4 of 5; untried: Wretched. Routine is very likely best; exploit it.\n</think>\n\n<action> Routine </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Conventional 75.0 (1), Pleasant 62.5 (1), Superb 50.0 (1), Displeasing 37.5 (1). Tried 4 of 5; untried: Horrendous. Conventional is very likely best; exploit it.\n</think>\n\n<action> Conventional </action>"
+  },
+  {
+   "state": 15,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Normal 75.0 (1), Helpful 62.5 (1), Excellent 50.0 (1), Bad 37.5 (1). Tried 4 of 5; untried: Appalling. Normal is very likely best; exploit it.\n</think>\n\n<action> Normal </action>"
+  },
+  {
+   "state": 15,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 15,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 15,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 15,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Dry Scrubland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Low Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Low Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Low Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Low Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Normal 75.0 (1), Favorable 62.5 (1), Unsatisfactory 50.0 (1), Marvelous 37.5 (1). Tried 4 of 5; untried: Vile. Normal is very likely best; exploit it.\n</think>\n\n<action> Normal </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Common 75.0 (1), Welcome 62.5 (1), Substandard 50.0 (1), Brilliant 37.5 (1). Tried 4 of 5; untried: Dismal. Common is very likely best; exploit it.\n</think>\n\n<action> Common </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Customary 75.0 (1), Nice 62.5 (1), Displeasing 50.0 (1), Magnificent 37.5 (1). Tried 4 of 5; untried: Dreadful. Customary is very likely best; exploit it.\n</think>\n\n<action> Customary </action>"
+  },
+  {
+   "state": 16,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Basic 75.0 (1), Favorable 62.5 (1), Shoddy 50.0 (1), Exceptional 37.5 (1). Tried 4 of 5; untried: Lousy. Basic is very likely best; exploit it.\n</think>\n\n<action> Basic </action>"
+  },
+  {
+   "state": 16,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Dry Scrubland 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 16,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Dry Scrubland 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 16,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Dry Scrubland 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 16,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Dry Scrubland 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), High Reward 62.5 (1), Lowest Reward 37.5 (1), Highest Reward 25.0 (1). Tried 4 of 5; untried: Low Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Basic 75.0 (1), Agreeable 62.5 (1), Atrocious 37.5 (1), Phenomenal 25.0 (1). Tried 4 of 5; untried: Inferior. Basic is very likely best; exploit it.\n</think>\n\n<action> Basic </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commonplace 75.0 (1), Commendable 62.5 (1), Pathetic 37.5 (1), Spectacular 25.0 (1). Tried 4 of 5; untried: Unfavorable. Commonplace is very likely best; exploit it.\n</think>\n\n<action> Commonplace </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Moderate 75.0 (1), Helpful 62.5 (1), Abominable 37.5 (1), Phenomenal 25.0 (1). Tried 4 of 5; untried: Substandard. Moderate is very likely best; exploit it.\n</think>\n\n<action> Moderate </action>"
+  },
+  {
+   "state": 17,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Normal 75.0 (1), Useful 62.5 (1), Abominable 37.5 (1), Phenomenal 25.0 (1). Tried 4 of 5; untried: Unsatisfactory. Normal is very likely best; exploit it.\n</think>\n\n<action> Normal </action>"
+  },
+  {
+   "state": 17,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 17,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 17,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 17,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 62.5 (1), Arid Desert 37.5 (1), Productive Grassland 25.0 (1). Tried 4 of 5; untried: Dry Scrubland. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 62.5 (1), Intermediate Reward 75.0 (1), High Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), Low Reward 62.5 (1), High Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Intermediate Reward 75.0 (1), Low Reward 62.5 (1), High Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Intermediate Reward is very likely best; exploit it.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 62.5 (1), Intermediate Reward 75.0 (1), High Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Normal 75.0 (1), Faulty 62.5 (1), Likable 50.0 (1), Terrific 37.5 (1). Tried 4 of 5; untried: Horrible. Normal is very likely best; exploit it.\n</think>\n\n<action> Normal </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Functional 75.0 (1), Solid 50.0 (1), Problematic 62.5 (1), Excellent 37.5 (1). Tried 4 of 5; untried: Despicable. Functional is very likely best; exploit it.\n</think>\n\n<action> Functional </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Everyday 75.0 (1), Unsatisfactory 62.5 (1), Favorable 50.0 (1), Spectacular 37.5 (1). Tried 4 of 5; untried: Dreadful. Everyday is very likely best; exploit it.\n</think>\n\n<action> Everyday </action>"
+  },
+  {
+   "state": 18,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Commonplace 75.0 (1), Good 50.0 (1), Unfavorable 62.5 (1), Stellar 37.5 (1). Tried 4 of 5; untried: Terrible. Commonplace is very likely best; exploit it.\n</think>\n\n<action> Commonplace </action>"
+  },
+  {
+   "state": 18,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 50.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 18,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Dry Scrubland 62.5 (1), Fertile Meadow 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 18,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 50.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 18,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 2,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Rocky Hills 75.0 (1), Fertile Meadow 50.0 (1), Dry Scrubland 62.5 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Rocky Hills is very likely best; exploit it.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Lowest Reward 50.0 (1), Highest Reward 25.0 (1), High Reward 37.5 (1). Tried 3 of 5; untried: Low Reward, Intermediate Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Lowest Reward 50.0 (1), High Reward 37.5 (1), Highest Reward 25.0 (1). Tried 3 of 5; untried: Low Reward, Intermediate Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Lowest Reward 50.0 (1), High Reward 37.5 (1), Highest Reward 25.0 (1). Tried 3 of 5; untried: Intermediate Reward, Low Reward. Check Intermediate Reward next.\n</think>\n\n<action> Intermediate Reward </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Highest Reward 25.0 (1), High Reward 37.5 (1), Lowest Reward 50.0 (1). Tried 3 of 5; untried: Low Reward, Intermediate Reward. Check Low Reward next.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dreadful 50.0 (1), Valuable 37.5 (1), Superb 25.0 (1). Tried 3 of 5; untried: Flawed, Average. Check Flawed next.\n</think>\n\n<action> Flawed </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Despicable 50.0 (1), Commendable 37.5 (1), Wonderful 25.0 (1). Tried 3 of 5; untried: Bad, Typical. Check Bad next.\n</think>\n\n<action> Bad </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dismal 50.0 (1), Worthy 37.5 (1), Fabulous 25.0 (1). Tried 3 of 5; untried: Typical, Unsatisfactory. Check Typical next.\n</think>\n\n<action> Typical </action>"
+  },
+  {
+   "state": 19,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Appalling 50.0 (1), Pleasant 37.5 (1), Phenomenal 25.0 (1). Tried 3 of 5; untried: Regular, Lacking. Check Regular next.\n</think>\n\n<action> Regular </action>"
+  },
+  {
+   "state": 19,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 3,
+   "match": "none",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Arid Desert 50.0 (1), Fertile Meadow 37.5 (1), Productive Grassland 25.0 (1). Tried 3 of 5; untried: Dry Scrubland, Rocky Hills. Check Dry Scrubland next.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 19,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Arid Desert 50.0 (1), Fertile Meadow 37.5 (1), Productive Grassland 25.0 (1). Tried 3 of 5; untried: Rocky Hills, Dry Scrubland. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 19,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Arid Desert 50.0 (1), Fertile Meadow 37.5 (1), Productive Grassland 25.0 (1). Tried 3 of 5; untried: Rocky Hills, Dry Scrubland. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 19,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 3,
+   "observed_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "chosen_position": 2,
+   "match": "contra",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Arid Desert 50.0 (1), Fertile Meadow 37.5 (1), Productive Grassland 25.0 (1). Tried 3 of 5; untried: Rocky Hills, Dry Scrubland. Check Rocky Hills next.\n</think>\n\n<action> Rocky Hills </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 50.0 (1), Intermediate Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Unpleasant 75.0 (1), Enjoyable 62.5 (1), Stellar 50.0 (1), Normal 37.5 (1). Tried 4 of 5; untried: Appalling. Unpleasant is very likely best; exploit it.\n</think>\n\n<action> Unpleasant </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Inadequate 75.0 (1), Worthy 62.5 (1), Remarkable 50.0 (1), Normal 37.5 (1). Tried 4 of 5; untried: Lousy. Inadequate is very likely best; exploit it.\n</think>\n\n<action> Inadequate </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Unfavorable 75.0 (1), Commendable 62.5 (1), Exquisite 50.0 (1), Medium 37.5 (1). Tried 4 of 5; untried: Terrible. Unfavorable is very likely best; exploit it.\n</think>\n\n<action> Unfavorable </action>"
+  },
+  {
+   "state": 20,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Unfavorable 75.0 (1), Likable 62.5 (1), Marvelous 50.0 (1), Commonplace 37.5 (1). Tried 4 of 5; untried: Awful. Unfavorable is very likely best; exploit it.\n</think>\n\n<action> Unfavorable </action>"
+  },
+  {
+   "state": 20,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 20,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 20,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Productive Grassland 50.0 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 20,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Productive Grassland 50.0 (1), Fertile Meadow 62.5 (1), Rocky Hills 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Intermediate Reward 50.0 (1), Highest Reward 37.5 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "ordinal",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Low Reward 75.0 (1), High Reward 62.5 (1), Highest Reward 37.5 (1), Intermediate Reward 50.0 (1). Tried 4 of 5; untried: Lowest Reward. Low Reward is very likely best; exploit it.\n</think>\n\n<action> Low Reward </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Unpleasant 75.0 (1), Fine 62.5 (1), Routine 50.0 (1), Splendid 37.5 (1). Tried 4 of 5; untried: Despicable. Unpleasant is very likely best; exploit it.\n</think>\n\n<action> Unpleasant </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Deficient 75.0 (1), Decent 62.5 (1), Typical 50.0 (1), Phenomenal 37.5 (1). Tried 4 of 5; untried: Wretched. Deficient is very likely best; exploit it.\n</think>\n\n<action> Deficient </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Disappointing 75.0 (1), Good 62.5 (1), Regular 50.0 (1), Remarkable 37.5 (1). Tried 4 of 5; untried: Wretched. Disappointing is very likely best; exploit it.\n</think>\n\n<action> Disappointing </action>"
+  },
+  {
+   "state": 21,
+   "domain": "bandit",
+   "nom": "sentiment",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Weak 75.0 (1), Welcome 62.5 (1), Standard 50.0 (1), Magnificent 37.5 (1). Tried 4 of 5; untried: Ghastly. Weak is very likely best; exploit it.\n</think>\n\n<action> Weak </action>"
+  },
+  {
+   "state": 21,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 0,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 21,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 1,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 21,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 2,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  },
+  {
+   "state": 21,
+   "domain": "farm",
+   "nom": "world",
+   "order_idx": 3,
+   "step": 4,
+   "observed_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "chosen_position": 3,
+   "match": "dp",
+   "parse": "answer_tag_exact",
+   "raw": "<think>\nLabels carry no meaning. Observed: Dry Scrubland 75.0 (1), Fertile Meadow 62.5 (1), Rocky Hills 50.0 (1), Productive Grassland 37.5 (1). Tried 4 of 5; untried: Arid Desert. Dry Scrubland is very likely best; exploit it.\n</think>\n\n<action> Dry Scrubland </action>"
+  }
+ ],
+ "args": {
+  "backend": "vllm",
+  "model": "/root/models/Qwen3-8B",
+  "lora": "/root/sa/adapters/AGN_V7_QWEN",
+  "out": "out/P5_AGN_QWEN",
+  "states": "k5_policy_sets.json",
+  "max_model_len": 2048
+ },
+ "wall_s": 78.17330265045166
+}

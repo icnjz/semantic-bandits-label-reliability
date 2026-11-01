@@ -1,0 +1,26 @@
+{
+ "args": {
+  "backend": "vllm",
+  "model": "/root/models/Qwen3-8B",
+  "out": "out/E5_SCRIPT_QWEN_S0",
+  "reps": 10,
+  "rep_list": "0-9,80-139",
+  "turns": 10,
+  "cells": "all",
+  "max_model_len": 2048,
+  "hf_dtype": "bfloat16",
+  "lora": "/root/sa/adapters/SCRIPT_K5_QWEN_S0",
+  "variant": "none",
+  "scale": "H+",
+  "sigma": 0.0,
+  "k": 5
+ },
+ "wall_s": 469.54539012908936,
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 20
+ },
+ "thinking_budget": 150,
+ "new_token_budget": 512
+}

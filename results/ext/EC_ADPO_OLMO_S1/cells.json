@@ -1,0 +1,114 @@
+[
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.05000000000000002,
+  "regret_ci95": [
+   0.05000000000000002,
+   0.05000000000000002
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.1566666666666667,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.1666666666666667
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.15000000000000002,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.15000000000000002
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.1783333333333334,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.21833333333333338
+  ],
+  "explore": 2.933333333333333,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.05166666666666668,
+  "regret_ci95": [
+   0.05000000000000002,
+   0.05500000000000002
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.15000000000000002,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.15000000000000002
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 1
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.15000000000000002,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.15000000000000002
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ }
+]

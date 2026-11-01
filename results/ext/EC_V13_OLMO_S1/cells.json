@@ -1,0 +1,114 @@
+[
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.05000000000000002,
+  "regret_ci95": [
+   0.05000000000000002,
+   0.05000000000000002
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "ordinal",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.16000000000000006,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.18000000000000008
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.10499999999999997,
+  "regret_ci95": [
+   0.08666666666666667,
+   0.12166666666666665
+  ],
+  "explore": 2.5,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "world",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.10833333333333332,
+  "regret_ci95": [
+   0.09166666666666665,
+   0.12333333333333332
+  ],
+  "explore": 2.5,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "helpful",
+  "n_reps": 30,
+  "regret": 0.05000000000000002,
+  "regret_ci95": [
+   0.05000000000000002,
+   0.05000000000000002
+  ],
+  "explore": 2.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "sentiment",
+  "align": "misleading",
+  "n_reps": 30,
+  "regret": 0.15000000000000002,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.15000000000000002
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ },
+ {
+  "domain": "clothing",
+  "nom": "alphanumeric",
+  "align": "none",
+  "n_reps": 30,
+  "regret": 0.15000000000000002,
+  "regret_ci95": [
+   0.15000000000000002,
+   0.15000000000000002
+  ],
+  "explore": 3.0,
+  "published_regret": null,
+  "published_explore": null,
+  "abs_diff": null,
+  "parse_fail_random": 0
+ }
+]

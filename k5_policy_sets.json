@@ -1,0 +1,633 @@
+{
+ "official_cells": {
+  "helpful": {
+   "DP": 0.025,
+   "CONTRA": 0.025,
+   "DP_seq": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "CONTRA_seq": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "misleading": {
+   "DP": 0.125,
+   "CONTRA": 0.25,
+   "DP_seq": [
+    0,
+    1,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "CONTRA_seq": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  }
+ },
+ "semantic_mean": {
+  "DP": 0.075,
+  "CONTRA": 0.1375
+ },
+ "disagreement_states": [
+  {
+   "order_best_to_worst": [
+    1,
+    0
+   ],
+   "turns_left": 8,
+   "step": 2,
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "example_true": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    0,
+    4,
+    2
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    3,
+    4,
+    0,
+    2,
+    1
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    2,
+    0,
+    4
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    2,
+    0
+   ],
+   "turns_left": 7,
+   "step": 3,
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    2,
+    4,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    2,
+    4,
+    1,
+    3,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    3,
+    2,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    1,
+    4,
+    2,
+    3,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    4,
+    0,
+    2
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    1,
+    4,
+    2,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    1
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    1,
+    0,
+    4
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    1,
+    0
+   ],
+   "turns_left": 7,
+   "step": 3,
+   "dp": [
+    "probe",
+    4
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    2,
+    3,
+    4,
+    1,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    1,
+    3,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    1,
+    4,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    3
+   ],
+   "example_true": [
+    0,
+    3,
+    4,
+    2,
+    1
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    2
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    1,
+    2,
+    4,
+    3,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    4,
+    1,
+    0
+   ],
+   "turns_left": 7,
+   "step": 3,
+   "dp": [
+    "commit",
+    4
+   ],
+   "contra": [
+    "probe",
+    2
+   ],
+   "example_true": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "reached_by": "DP"
+  },
+  {
+   "order_best_to_worst": [
+    3,
+    1,
+    0,
+    2
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    2,
+    3,
+    1,
+    4,
+    0
+   ],
+   "reached_by": "CONTRA"
+  },
+  {
+   "order_best_to_worst": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "turns_left": 6,
+   "step": 4,
+   "dp": [
+    "commit",
+    3
+   ],
+   "contra": [
+    "probe",
+    4
+   ],
+   "example_true": [
+    1,
+    3,
+    2,
+    4,
+    0
+   ],
+   "reached_by": "CONTRA"
+  }
+ ]
+}
